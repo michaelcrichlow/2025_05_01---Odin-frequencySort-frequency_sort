@@ -163,6 +163,7 @@ frequencySort :: proc(s: string, allocator := context.allocator) -> string {
     // return ""
 }
 
+// code by karl_zylinski (thank you!)
 frequency_sort :: proc(s: string, allocator := context.allocator) -> string {
     occurances := make(map[rune]int, context.temp_allocator)
 
